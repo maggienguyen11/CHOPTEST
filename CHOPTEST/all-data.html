@@ -78,11 +78,11 @@
 			The data set is a list of anonymized specimens in the CHOP Biorepository stored for the Children’s Brain Tumor Tissue Consortium (cbttc.org). Permission has been obtained by the CBTTC Scientific Review Committee to use this data for this purpose. This data is not to be used in another other fashion other than instructed in this skills assessment.
 		</p>
 		<br><br>
-		<p><a class="btn btn-action btn-lg" role="button" href="/file-download/All-aliquot-list.csv" download>CLICK HERE TO DOWNLOAD A FULL DATA</a></p>
+		<p><a class="btn btn-action btn-lg" role="button" onclick="exportToExcel('tblexportData', 'all-aliquot-data')" class="btn btn-success">EXPORT TABLE DATA TO EXCEL FILE </a></p>
 		<br><br>
 	</div>
 	<!-- /Intro-->
-	<div class="container">
+	<div class="container" id="tblexportData">
 		<table id="table">
 		<tr> 
 				<!--Calls sortTable function(start from 0 for aliquot pk serial to 16 for origin aliquot desc) when headers are clicked-->
@@ -579,6 +579,7 @@
 	<script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
 	<script src="assets/js/all-data.js"></script>
 	<script src="assets/js/sticky-nav.js"></script>
+	<script src="assets/js/export.js"></script>
 
 	
 	

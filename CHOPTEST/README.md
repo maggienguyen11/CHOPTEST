@@ -14,7 +14,7 @@ Features
 * Easy to use, fat-free HTML and CSS code.
 * The Data break down to four different type of anonymized specimens data such as: Blood EDTA, Tissue Flash Frozen, Tissue Freezing Media, Tissue Cell Culture by follow the navigator. 
 * Data in the table can be sorted in ascending and descending when clicking on the header of each column.
-* Data can be download in excel file by click on the download button.
+* Data can be export to excel file by click on the export button.
 
 
 
