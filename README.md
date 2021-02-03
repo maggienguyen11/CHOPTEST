@@ -24,3 +24,4 @@ Credits
 * https://www.includehelp.com/code-snippets/display-alert-message-on-button-click-event.aspx
 * https://getbootstrap.com/docs/5.0/getting-started/contents/#css-files
 * https://medium.com/swlh/how-to-create-your-first-login-page-with-html-css-and-javascript-602dd71144f1
+* https://www.tutorialswebsite.com/export-html-table-data-to-excel-using-javascript/
