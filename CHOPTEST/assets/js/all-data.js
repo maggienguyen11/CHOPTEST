@@ -30,7 +30,7 @@ function sortTable(n) {
 	  x = rows[i].getElementsByTagName("TD")[n];
 	  y = rows[i + 1].getElementsByTagName("TD")[n];
 
-	 
+	 if (Date.parse(x.innerHTML)) {
 		// Check the direction of order
 		if (direction == "ascending") {
 		  // Check if 2 rows need to be switched
@@ -53,6 +53,7 @@ function sortTable(n) {
 			break;
 		  }
 		}
+	      }
 	  else {
 		// Check the direction of order
 		if (direction == "ascending") {
